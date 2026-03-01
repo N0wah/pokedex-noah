@@ -28,7 +28,9 @@ function SelectLanguage() {
   }, [language]);
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setLocalLanguage(event.target.value);
+    const value = event.target.value;
+    setLocalLanguage(value);
+    setLanguage(value);
   };
 
   return (
