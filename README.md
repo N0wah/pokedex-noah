@@ -1,3 +1,5 @@
+This repository contains a migrated version of the original React/Vite pokédex application (https://github.com/N0wah/pokedex-noah) now rewritten using Next.js 13 with the App Router and TypeScript.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
